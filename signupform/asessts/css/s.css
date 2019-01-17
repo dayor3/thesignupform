@@ -1,0 +1,74 @@
+body{
+    background-image: url("../images/m3.jpg");
+    position: relative;
+    display: block;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*form*/
+#form{
+    border:2px;
+    margin:auto;    
+    width:400px;
+    padding: 5px 40px 40px 40px;
+    background: rgba(0, 0, 0, 0.4);
+    color:rgb(255, 255, 255);
+
+}
+form:hover{
+    opacity: 0.6;
+}
+/*the sign up form*/
+.signupform{
+    font-size: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    border-bottom-style: ridge;
+}
+/*navbar--brand*/
+.navbar-brand{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:100;
+    background-color: skyblue;
+}
+/*collapse class*/
+.collapse{
+    float: right ;
+    text-align: right;
+    width: 100%;
+    background-color:skyblue; 
+    overflow: auto;
+}
+/*for text*/
+.text{
+    height:43px;
+}
+/*label*/
+label{
+    font-size: 18px
+}
+/*buttons*/
+.btn-primary{
+    border-radius: 0px;padding: 10px;
+    width: 48%;
+}
+.btn-danger{
+    border-radius: 0px;padding: 10px;
+    width: 48%;
+}
+.fa{
+    padding:15px;
+    font-size: 25px;
+    color: white;
+  }
+  .fa:hover{
+    color: darkblue;
+    text-decoration: none;
+  }
+  .icon{
+    max-width: 200px;
+  }

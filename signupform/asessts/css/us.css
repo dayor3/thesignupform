@@ -1,0 +1,119 @@
+body{
+    background-image: url("../images/b3.jpg");
+    position: relative;
+    display: block;
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*collapse class*/
+.collapse{
+    float: right ;
+    text-align: right;
+    width: 100%;
+    background-color:skyblue; 
+    overflow: auto;
+  }
+  /* collapse links */
+  .collapse a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /*navbar--brand*/
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+    font-size: 45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:200;
+    background-color: skyblue;
+    
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/*form*/
+#form{
+    border:2px;
+    margin:auto;    
+    width:400px;
+    padding: 5px 40px 40px 40px;
+    background: rgba(0, 0, 0, 0.4);
+    color:rgb(252, 252, 252);
+}
+/* Style the submit button*/
+.btn-primary{
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/*the sign up form*/
+.contactusform{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    border-bottom-style: ridge;
+}
+/* When moving the mouse over the submit button, add a darker blue color */
+.btn-primary:hover {
+  background-color: #1512d3;
+}
+/* Style the reset button*/
+.btn-danger{
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* When moving the mouse over the reset button, add a darker red color */
+.btn-danger:hover {
+    background-color: #640404;
+}
+/*footer*/
+footer{
+  width: 100%;
+  background-color:skyblue;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+.fa{
+  padding:15px;
+  font-size: 25px;
+  color: white;
+}
+.fa:hover{
+  color: darkblue;
+  text-decoration: none;
+}
+.icon{
+  max-width: 200px;
+}
+
+@images and (max-width: 760px){
+  .nature-text h1{
+    font-size: 300%;
+  }
+  .fa{
+    font-size:20px;
+    padding:10px;
+  }
+  .icon{
+    padding-top:5%;
+    max-width:100px;
+}
